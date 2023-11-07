@@ -1,0 +1,25 @@
+/* Style for the container */
+.ParagraphWordCounter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the textarea */
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: none; /* Prevent textarea from being resized */
+  }
+  
+  /* Style for the paragraph displaying word count */
+  p {
+    font-size: 18px;
+    font-weight: bold;
+  }
